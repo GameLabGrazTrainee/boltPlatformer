@@ -33,10 +33,10 @@ public class PlayerController : MonoBehaviour
 
 
     private bool isGrounded => Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
-    int nextLevel = 0;
-    int nextLevel2 = 1;
-    int nextLevel3 = 2; 
-    int Menu = 3;
+    public int nextLevel = 0;
+    public int nextLevel2 = 1;
+    public int nextLevel3 = 2; 
+    public int Menu = 3;
     
     
 
